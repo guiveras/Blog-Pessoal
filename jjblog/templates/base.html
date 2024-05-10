@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}Blog{% endblock %}</title>
+</head>
+<body>
+  <header>
+    <h1>{% block header %}Blog{% endblock %}</h1>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    {% block footer %}Blog by <a href="https://github.com/user/">user</a>{% endblock %}
+  </footer>
+</body>
+</html>
